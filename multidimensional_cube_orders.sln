@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MultidimensionalProject_Orders", "C:\Users\gapself\source\repos\MultidimensionalProject_zamowienia\MultidimensionalProject_zamowienia\MultidimensionalProject_Orders.dwproj", "{B20D02B2-99ED-4E21-BC57-BA0A3A60F4C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B20D02B2-99ED-4E21-BC57-BA0A3A60F4C3}.Development|Default.ActiveCfg = Development
+		{B20D02B2-99ED-4E21-BC57-BA0A3A60F4C3}.Development|Default.Build.0 = Development
+		{B20D02B2-99ED-4E21-BC57-BA0A3A60F4C3}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DDED8049-496C-4B98-A090-227FDFC96BF7}
+	EndGlobalSection
+EndGlobal
