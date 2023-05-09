@@ -1,10 +1,14 @@
-# Star schema - data warehouse
+# Star schema - data warehouse for orders
+
+### Environment:<br>
+![Visual Studio](https://img.shields.io/badge/Visual%20Studio-5C2D91.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+![MicrosoftSQLServer](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft%20sql%20server&logoColor=white)
 
 ### ETL (Extract, Transform and Load) process
 
 Star schema database is organized into a central fact table which includes measures of interest and is surrounded by dimension tables that describe the attributes of the measures.
 
-## Loading data (SQL Server Integration Services 2008)
+## Loading data (SSIS - SQL Server Integration Services 2008)
 File: ETL_orders.sln<br>
 1. Create database (StudentId) and necessary tables (create_tables_orders.sql). Use staging tables (CustomerSt etc) to save informations from the data sources (salesstore.xls). Data is sent to individual tables asynchronously so that changes to individual staging tables can be made (e.g. repeated) independently without damaging the entire solution.
 
