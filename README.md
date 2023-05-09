@@ -28,7 +28,7 @@ truncate table TabelName;
 
 
 
-## 3. Build cube
+## 3. Building cube
 File: multidimensional_cube_orders.sln <br>
 > <img src="https://github.com/gapself/data-warehouse-star-schema/assets/38349049/4394d9f4-afa6-4d8e-b2d8-6472797c9e6e" width="900"> <br>
 
