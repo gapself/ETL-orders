@@ -6,7 +6,7 @@ Star schema database is organized into a central fact table which includes measu
 
 ## Loading data (SQL Server Integration Services 2008)
 File: ETL_orders.sln<br>
-1. Create database (StudentId) and necessary tables. Use staging tables (CustomerSt etc) to save informations from the data sources (salesstore.xls). Data is sent to individual tables asynchronously so that changes to individual staging tables can be made (e.g. repeated) independently without damaging the entire solution.
+1. Create database (StudentId) and necessary tables (create_tables_orders.sql). Use staging tables (CustomerSt etc) to save informations from the data sources (salesstore.xls). Data is sent to individual tables asynchronously so that changes to individual staging tables can be made (e.g. repeated) independently without damaging the entire solution.
 
       ❗ Execute SQL task for every staging table after loading it into fact table (it takes also less space - anyway, later we load this historical data to data warehouse)<br>
       TRUNCATE removes all rows from a table, but the table structure and its columns, constraints, indexes, and so on remain (deletes the data inside a table, but not the table itself)
